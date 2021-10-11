@@ -1,0 +1,45 @@
+#body{
+	color:black;
+	background-color:black;
+}
+
+
+#wrapper{
+	width:1000px;
+	margin:0 auto;
+	background-color:green;
+}
+
+#header{
+	height:70px;
+  width:600px;
+  margin: 0 auto;
+	text-align:center;
+  background-color: red;
+
+}
+
+#leftbody{
+	width:200px;
+	height: 50px;
+	background-color:pink;
+  margin-left:200px;
+	padding:5px;
+
+
+}
+#rightbody{
+	width:600px;
+	height:500px;
+	background:blue;
+  margin: 0 auto;
+}
+
+#bottom{
+  height:40px;
+  width:600px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: yellow;
+
+}
