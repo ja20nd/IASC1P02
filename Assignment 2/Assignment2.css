@@ -1,0 +1,54 @@
+#body{
+	color:blue;
+	background-color:black;
+}
+
+
+#wrapper{
+	width:750px;
+	background-color:#DA291C;
+  margin:20px 10% 20px 10%;
+  border: black 3px solid;
+  padding: 10px 20% 10px 20%;
+}
+
+#header{
+	height:50px;
+  color: white;
+  background-color: #F02E0F;
+	text-align:center;
+  font-size: 15px;
+  position: fixed;
+}
+
+.break{margin-top: 50px;}
+.link{position:absolute;}
+
+#header2{
+  color: #FBE122;
+  text-align:left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.goals{font-weight: bold;font-family:"Arial", Arial, serif;}
+
+.trophies{font-size:15px;color: #FBE122;font-family:"Arial", Arial, serif;}
+
+.goals,.trophies{position: relative;}
+
+.goals li{color: white;}
+
+.image1,.image2{height: 75%;width: 75%;border: #FBE122 3px solid;}
+
+.earlylife{text-transform: capitalize; text-align: center;color:#FBE122;}
+
+.bio{font-family:"Arial", Arial, serif;}
+
+#bottom{
+	height:50px;
+  text-align: center;
+  background-color: #FBE122;
+  color: white;
+
+}
