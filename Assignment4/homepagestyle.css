@@ -1,0 +1,333 @@
+#body{
+	background-color: #F6F6F6;
+}
+
+.Header{
+	font-family: "Georgia", serif;
+	color:#408697;
+	font-size:18px;
+	height:50px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	background-color: #F6F6F6;
+	border: 7px solid #F6F6F6;
+	text-align: center;
+	line-height: 2px;
+	z-index: 3;
+}
+
+.Navbar{
+	position: fixed;
+	font-family: "Times New Roman", serif;
+	top: 60px;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	background-color: black;
+	z-index: 2;
+	font-size: 15px;
+	color: white;
+}
+li {
+	float: left;
+	text-align: center;
+	display: inline;
+	border-right: 2px solid white;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border: 2px white;
+}
+
+.active{
+	background-color: #52D6F4;
+	color: white;
+}
+
+a:hover {
+	background-color: #363538;
+	color: white;
+}
+
+.Description{
+	font-family: "Georgia", serif;
+	color:white;
+	font-size:50px;
+	height:250px;
+	width: 100%;
+	position: absolute;
+	top: 105px;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	right: 0;
+	background-color: #191919;
+	border-top: 3px solid #408697;
+	border-bottom: 5px solid #408697;
+	text-align: center;
+	line-height: 125px;
+	z-index: 1;
+}
+
+.Gallery{
+	color:white;
+	font-family: "Times New Roman", serif;
+	font-size:18px;
+	position:relative;
+	height:600px;
+	width: 90%;
+	top: 350px;
+	margin: 0;
+	padding: 0;
+	left: 5%;
+	right: 5%;
+	background-color: #408697;
+	border-top: 3px solid #408697;
+	border-bottom: 5px solid #408697;
+	line-height: 125px;
+}
+
+#Windrivertitle{
+	font-family: "Times New Roman", serif;
+	color:white;
+	font-size:25px;
+	line-height: 125px;
+	margin-bottom: 0;
+	border-bottom: 0;
+	padding-bottom: 0;
+  text-align: center;
+
+}
+
+#Windriverposter{
+	height: 226px;
+	width: 160px;
+	position: relative;
+	top: 0px;
+	margin-top: 0;
+}
+
+#Dunetitle{
+	font-family: "Times New Roman", serif;
+	color:white;
+	font-size:25px;
+	line-height: 125px;
+	margin-bottom: 0;
+	border-bottom: 0;
+	padding-bottom: 0;
+	text-align: center;
+}
+
+#Duneposter{
+	height: 226px;
+	width: 160px;
+	position: relative;
+	top: 0px;
+	margin-top: 0;
+}
+
+#Spidermantitle{
+	font-family: "Times New Roman", serif;
+	color:white;
+	font-size:25px;
+	line-height: 125px;
+	margin-bottom: 0;
+	border-bottom: 0;
+	padding-bottom: 0;
+	text-align: center;
+}
+
+#Spidermanposter{
+	height: 226px;
+	width: 160px;
+	position: relative;
+	top: 0px;
+	margin-top: 0;
+}
+
+.Posters{
+	display: inline;
+	top: 350px;
+	width: 80%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	left: 10%;
+	right: 10%;
+	background-color: #408697;
+}
+
+.Posters li{
+  padding-right:53px;
+	padding-left: 53.5px;
+}
+
+.windrivertrailer{
+	position: relative;
+	top: 360px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	left: 0;
+	right: 0;
+	background-color: #191919
+}
+
+#videobox{
+	position: relative;
+	left: 20px;
+}
+
+#jeremy{
+	width: 550px;
+	height: 280px;
+	position: relative;
+	left: 40px;
+	bottom: 100px;
+}
+
+.Reviewheadline{
+	color:white;
+	font-size:18px;
+	position:relative;
+	height:100px;
+	width: 100%;
+	top: 370px;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	right: 0;
+	border-left: 0;
+	border-right: 0;
+	background-color: #191919;
+	border-top: 3px solid #191919;
+	border-bottom: 5px solid #191919;
+	text-align: center;
+	line-height: 15px;
+}
+
+.wrapper{
+	font-family: "Times New Roman", serif;
+	color:white;
+	font-size:18px;
+	position:relative;
+	height:1200px;
+	width: 60%;
+	top: 380px;
+	margin: 0;
+	padding: 0;
+	left: 20%;
+	right: 20%;
+	background-color: #408697;
+	border-top: 3px solid #408697;
+	border-bottom: 5px solid #408697;
+	line-height: 125px;
+}
+
+#reviewessay{
+	font-family: "Times New Roman", serif;
+	margin-top:100px;
+	padding-left: 90px;
+	padding-right: 90px;
+	width: 50%
+	left:25%
+	right:25%
+	position:relative;
+	text-overflow: clip;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 26px;
+	text-align: justify;
+}
+
+#authorpic{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	border: 3px solid #52D6F4;
+	border-radius: 100px;
+	bottom: 70px;
+}
+
+#aboutauthor{
+	position: relative;
+		bottom: 40px;
+		z-index: 30;
+}
+
+#abouttext{
+	font-family: "Times New Roman", serif;
+	margin-top: 100px;
+	padding-left: 90px;
+	padding-right: 90px;
+	width: 50%
+	left:25%
+	right:25%
+	position:relative;
+	text-overflow: clip;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 26px;
+	text-align: justify;
+}
+
+#abouttext2{
+	font-family: "Times New Roman", serif;
+	margin-top: 30px;
+	padding-left: 90px;
+	padding-right: 90px;
+	width: 50%
+	left:25%
+	right:25%
+	position:relative;
+	text-overflow: clip;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 26px;
+	text-align: justify;
+}
+
+#Date{
+	font-family: "Times New Roman", serif;
+	font-style: 18px;
+	color: black;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	right: 0;
+	border border-bottom: 0;
+	border-left: 0;
+	border-right: 0;
+}
+
+.Footer{
+	font-family: "Times New Roman", serif;
+	color:#F6F6F6;
+	font-size:18px;
+	height:50px;
+	width: 100%;
+	position: relative;
+	top: 350px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background-color: #363538;
+	border: solid #363538;
+	text-align: center;
+	line-height: 2px;
+}
